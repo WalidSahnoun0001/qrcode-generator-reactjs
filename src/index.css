@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    background-color: #eee;
+}
+section {
+    text-align: center;
+    margin-top: 100px;
+}
+section h2 {
+    color: #18978F;
+}
+section .qrcode {
+    margin: 20px 0;
+}
+section .qrcode .generate input {
+    width: 350px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #18978F;
+    color: #fff;
+}
+section .qrcode input::placeholder {
+    color: #fff;
+}
+section .qrcode .generate button {
+    border: none;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: #18978F;
+    cursor: pointer;
+    background-color: #fff;
+}
+section .qrcode figure {
+    margin: 20px 0;
+}
+section .qrcode .download {
+    margin: 20px 0;
+}
+section .qrcode .download a {
+    text-decoration: none;
+    background-color: #18978F;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 15px;
 }
